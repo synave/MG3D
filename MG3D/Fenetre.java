@@ -1,28 +1,3 @@
-/*********************************************************************/
-/*                                                                   */
-/* Copyright 2012-2017 Rémi Synave, Anthony Desitter,                */
-/*                     Nicolas Dubrunfaut, Maxime Langa,             */
-/*                     Guillaume Langa                               */
-/*                                                                   */
-/* This file is part of MG2D.                                        */
-/* This library uses javazoom library piece of code                  */
-/* http://www.javazoom.net                                           */
-/* and can be found with this library (file jlayer1.0.1.tar.gz)      */
-/*                                                                   */
-/* MG2D is free software: you can redistribute it and/or modify      */
-/* it under the terms of the GNU General Public License as published */
-/* by the Free Software Foundation, either version 3 of the License, */
-/* or (at your option) any later version.                            */
-/*                                                                   */
-/* MG2D is distributed in the hope that it will be useful,           */
-/* but WITHOUT ANY WARRANTY; without even the implied warranty of    */
-/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the      */
-/* GNU General Public License for more details.                      */
-/*                                                                   */
-/* You should have received a copy of the GNU General Public License */
-/* along with MG2D. If not, see <http://www.gnu.org/licenses/>.      */
-/*                                                                   */
-/*********************************************************************/
 package MG3D;
 
 import java.awt.Dimension;
@@ -335,7 +310,7 @@ public class Fenetre extends JFrame {
      * Il s'agit simplement d'un relais entre le programme principal et la classe Panneau.<br />
      * On évite ainsi à l'utilisateur d'écrire f.getP().ajouter();
      * @see Panneau
-     * @see Dessin
+     * @see Objet3D
      * @see #rafraichir rafraichir()
      */
     public void ajouter ( Objet3D d ) {
@@ -350,7 +325,7 @@ public class Fenetre extends JFrame {
      * Il s'agit simplement d'un relais entre le programme principal et la classe Panneau.<br />
      * On évite ainsi à l'utilisateur d'écrire f.getP().supprimer();
      * @see Panneau
-     * @see Dessin
+     * @see Objet3D
      * @see #rafraichir rafraichir()
      */
     public void supprimer ( Objet3D d ) {

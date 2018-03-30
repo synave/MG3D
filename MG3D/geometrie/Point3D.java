@@ -31,7 +31,7 @@ public class Point3D {
 	
 	/**
 	 * Construit un sommet à partir d'un modèle de sommet.
-	 * @param s Le sommet à copier.
+	 * @param p Le point à copier.
 	 */
 	public Point3D(Point3D p) {
 		this.x = p.x;
