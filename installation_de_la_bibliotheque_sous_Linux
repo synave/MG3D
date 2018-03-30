@@ -1,0 +1,1 @@
+export CLASSPATH=$CLASSPATH:./:~/git/MG3D/:/usr/share/java/jogl2.jar:/usr/share/java/gluegen2-rt.jar
