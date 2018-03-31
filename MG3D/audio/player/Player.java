@@ -18,16 +18,16 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
 import java.io.InputStream;
 
-import MG2D.audio.decoder.Bitstream;
-import MG2D.audio.decoder.BitstreamException;
-import MG2D.audio.decoder.Decoder;
-import MG2D.audio.decoder.Header;
-import MG2D.audio.decoder.JavaLayerException;
-import MG2D.audio.decoder.SampleBuffer;
+import MG3D.audio.decoder.Bitstream;
+import MG3D.audio.decoder.BitstreamException;
+import MG3D.audio.decoder.Decoder;
+import MG3D.audio.decoder.Header;
+import MG3D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.SampleBuffer;
 	
 /**
  * The <code>Player</code> class implements a simple player for playback

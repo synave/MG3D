@@ -18,14 +18,14 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
 import java.applet.Applet;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * A simple applet that plays an MPEG audio file. 

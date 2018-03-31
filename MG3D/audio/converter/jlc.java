@@ -26,13 +26,13 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.converter;
+package MG3D.audio.converter;
 
 import java.io.PrintWriter;
 
-import MG2D.audio.decoder.Crc16;
-import MG2D.audio.decoder.JavaLayerException;
-import MG2D.audio.decoder.OutputChannels;
+import MG3D.audio.decoder.Crc16;
+import MG3D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.OutputChannels;
 
 /**
  * The <code>jlc</code> class presents the JavaLayer

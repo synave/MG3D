@@ -18,9 +18,9 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * An <code>AudioDeviceFactory</code> class is responsible for creating

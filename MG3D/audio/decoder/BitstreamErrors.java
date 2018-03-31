@@ -19,7 +19,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * This interface describes all error codes that can be thrown 

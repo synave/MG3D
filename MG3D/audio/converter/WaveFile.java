@@ -23,7 +23,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.converter;
+package MG3D.audio.converter;
 
 /**
  * Class allowing WaveFormat Access

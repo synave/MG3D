@@ -18,9 +18,9 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * This class is responsible for creating instances of the
@@ -32,7 +32,7 @@ public class JavaSoundAudioDeviceFactory extends AudioDeviceFactory
 {
 	private boolean tested = false;
 
-	static private final String DEVICE_CLASS_NAME = "MG2D.audio.player.JavaSoundAudioDevice";
+	static private final String DEVICE_CLASS_NAME = "MG3D.audio.player.JavaSoundAudioDevice";
 	
 	public synchronized AudioDevice createAudioDevice()
 		throws JavaLayerException

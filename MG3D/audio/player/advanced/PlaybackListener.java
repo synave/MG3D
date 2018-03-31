@@ -17,7 +17,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player.advanced;
+package MG3D.audio.player.advanced;
 
 /**
  * Listener for javalayer Player playback

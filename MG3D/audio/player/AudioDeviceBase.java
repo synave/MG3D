@@ -18,10 +18,10 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
-import MG2D.audio.decoder.Decoder;
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.Decoder;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * The <code>AudioDeviceBase</code> class provides a simple thread-safe

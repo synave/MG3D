@@ -22,7 +22,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
 import javax.sound.sampled.AudioFormat;
 import javax.sound.sampled.AudioSystem;
@@ -31,8 +31,8 @@ import javax.sound.sampled.Line;
 import javax.sound.sampled.LineUnavailableException;
 import javax.sound.sampled.SourceDataLine;
 
-import MG2D.audio.decoder.Decoder;
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.Decoder;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * The <code>JavaSoundAudioDevice</code> implements an audio

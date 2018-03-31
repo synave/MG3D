@@ -18,7 +18,7 @@
  *----------------------------------------------------------------------
  */
  
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * The <code>Decoder</code> class encapsulates the details of

@@ -17,7 +17,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player.advanced;
+package MG3D.audio.player.advanced;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -25,7 +25,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * This class implements a sample player using Playback listener.

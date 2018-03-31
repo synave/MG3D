@@ -17,18 +17,18 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player.advanced;
+package MG3D.audio.player.advanced;
 
 import java.io.InputStream;
 
-import MG2D.audio.decoder.Bitstream;
-import MG2D.audio.decoder.BitstreamException;
-import MG2D.audio.decoder.Decoder;
-import MG2D.audio.decoder.Header;
-import MG2D.audio.decoder.JavaLayerException;
-import MG2D.audio.decoder.SampleBuffer;
-import MG2D.audio.player.AudioDevice;
-import MG2D.audio.player.FactoryRegistry;
+import MG3D.audio.decoder.Bitstream;
+import MG3D.audio.decoder.BitstreamException;
+import MG3D.audio.decoder.Decoder;
+import MG3D.audio.decoder.Header;
+import MG3D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.SampleBuffer;
+import MG3D.audio.player.AudioDevice;
+import MG3D.audio.player.FactoryRegistry;
 
 /**
  * a hybrid of player.Player tweeked to include <code>play(startFrame, endFrame)</code>

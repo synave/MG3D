@@ -1,28 +1,27 @@
 /*********************************************************************/
 /*                                                                   */
-/* Copyright 2012-2017 Rémi Synave, Anthony Desitter,                */
-/*                     Nicolas Dubrunfaut, Maxime Langa,             */
-/*                     Guillaume Langa                               */
+/* Copyright 2017-2018 Rémi Synave, Ryan Verlande                    */
 /*                                                                   */
-/* This file is part of MG2D.                                        */
+/* This file is part of MG3D.                                        */
 /* This library uses javazoom library piece of code                  */
 /* http://www.javazoom.net                                           */
 /* and can be found with this library (file jlayer1.0.1.tar.gz)      */
 /*                                                                   */
-/* MG2D is free software: you can redistribute it and/or modify      */
+/* MG3D is free software: you can redistribute it and/or modify      */
 /* it under the terms of the GNU General Public License as published */
 /* by the Free Software Foundation, either version 3 of the License, */
 /* or (at your option) any later version.                            */
 /*                                                                   */
-/* Foobar is distributed in the hope that it will be useful,         */
+/* MG3D is distributed in the hope that it will be useful,           */
 /* but WITHOUT ANY WARRANTY; without even the implied warranty of    */
 /* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the      */
 /* GNU General Public License for more details.                      */
 /*                                                                   */
 /* You should have received a copy of the GNU General Public License */
-/* along with MG2D. If not, see <http://www.gnu.org/licenses/>.      */
+/* along with MG3D. If not, see <http://www.gnu.org/licenses/>.      */
 /*                                                                   */
 /*********************************************************************/
+
 package MG3D;
 
 import java.awt.event.KeyEvent;
@@ -32,7 +31,7 @@ import MG3D.geometrie.*;
 /**
  * Cette classe implémente les méthodes de KeyListener permettant la gestion du clavier.
  * <br /><br />
- * Elle permet de gérer le clavier dans des applications développées avec la bibliothèque MG2D.<br />
+ * Elle permet de gérer le clavier dans des applications développées avec la bibliothèque MG3D.<br />
  * A la façon d'une borne d'arcade, elle gère uniquement les touches directionnelles, 6 lettres (a/z/e et q/s/d), la barre espace et le bouton entrée.<br />
  * Elle fonctionne sur le principe de booléen que l'on change quand on appuie ou relache les touches.<br />
  * Si l'utilisateur souhaite implémenter la gestion de davantage de touches, il peut reprendre ce code et le modifier selon ses besoins.

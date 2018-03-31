@@ -21,7 +21,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
@@ -29,7 +29,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * The <code>jlp</code> class implements a simple command-line

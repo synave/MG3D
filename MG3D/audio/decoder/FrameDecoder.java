@@ -19,7 +19,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * Implementations of FrameDecoder are responsible for decoding

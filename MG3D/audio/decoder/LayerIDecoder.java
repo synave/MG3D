@@ -24,7 +24,7 @@
  *----------------------------------------------------------------------
  */
  
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * Implements decoding of MPEG Audio Layer I frames. 

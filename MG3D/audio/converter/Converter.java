@@ -18,7 +18,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.converter;
+package MG3D.audio.converter;
 
 import java.io.BufferedInputStream;
 import java.io.File;
@@ -27,11 +27,11 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.PrintWriter;
 
-import MG2D.audio.decoder.Bitstream;
-import MG2D.audio.decoder.Decoder;
-import MG2D.audio.decoder.Header;
-import MG2D.audio.decoder.JavaLayerException;
-import MG2D.audio.decoder.Obuffer;
+import MG3D.audio.decoder.Bitstream;
+import MG3D.audio.decoder.Decoder;
+import MG3D.audio.decoder.Header;
+import MG3D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.Obuffer;
 
 /**
  * The <code>Converter</code> class implements the conversion of

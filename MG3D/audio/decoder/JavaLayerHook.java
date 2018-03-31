@@ -17,7 +17,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 import java.io.InputStream;
 

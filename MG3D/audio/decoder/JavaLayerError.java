@@ -18,7 +18,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * Work in progress.

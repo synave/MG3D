@@ -17,7 +17,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player.advanced;
+package MG3D.audio.player.advanced;
 
 /**
  * An event which indicates a <code>Player</code> has performed an 'playback action'

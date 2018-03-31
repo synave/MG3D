@@ -32,7 +32,7 @@
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  *----------------------------------------------------------------------
  */
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * Base Class for audio output.

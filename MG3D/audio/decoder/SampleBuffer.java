@@ -23,7 +23,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * The <code>SampleBuffer</code> class implements an output buffer

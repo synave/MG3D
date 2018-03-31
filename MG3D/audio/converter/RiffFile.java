@@ -23,7 +23,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.converter;
+package MG3D.audio.converter;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;

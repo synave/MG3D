@@ -23,9 +23,9 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.converter;
+package MG3D.audio.converter;
 
-import MG2D.audio.decoder.Obuffer;
+import MG3D.audio.decoder.Obuffer;
 
 /**
  * Implements an Obuffer by writing the data to

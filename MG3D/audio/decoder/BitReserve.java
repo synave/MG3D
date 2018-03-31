@@ -25,7 +25,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 	
 /**
  * Implementation of Bit Reservoir for Layer III.

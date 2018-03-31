@@ -18,7 +18,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
 /**
  * The <code>NullAudioDevice</code> implements a silent, no-op

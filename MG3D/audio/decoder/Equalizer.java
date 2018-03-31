@@ -19,7 +19,7 @@
  */
 
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * The <code>Equalizer</code> class can be used to specify

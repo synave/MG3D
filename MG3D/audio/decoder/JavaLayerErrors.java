@@ -18,7 +18,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * Exception erorr codes for components of the JavaLayer API.

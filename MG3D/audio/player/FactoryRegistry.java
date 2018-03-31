@@ -18,12 +18,12 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.player;
+package MG3D.audio.player;
 
 import java.util.Enumeration;
 import java.util.Hashtable;
 
-import MG2D.audio.decoder.JavaLayerException;
+import MG3D.audio.decoder.JavaLayerException;
 
 /**
  * The <code>FactoryRegistry</code> class stores the factories

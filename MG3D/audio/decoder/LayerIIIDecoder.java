@@ -32,7 +32,7 @@
  *----------------------------------------------------------------------
  */
 
-package MG2D.audio.decoder;
+package MG3D.audio.decoder;
 
 /**
  * Class Implementing Layer 3 Decoder.
