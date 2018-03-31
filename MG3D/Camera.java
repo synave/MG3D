@@ -43,7 +43,7 @@ public class Camera {
 	position.setZ(position.getZ() + dz);
     }
 
-    public Point3D getFuturPosition(float distance){
+    public Point3D getFuturePosition(float distance){
 	double dx, dz;
 	dx = Math.cos(Math.toRadians(90 - angleGD)) * distance;
 	dz = -Math.sin(Math.toRadians(90 - angleGD)) * distance;
