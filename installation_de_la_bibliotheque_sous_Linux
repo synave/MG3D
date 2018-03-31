@@ -1,1 +1,26 @@
-export CLASSPATH=$CLASSPATH:./:~/git/MG3D/:/usr/share/java/jogl2.jar:/usr/share/java/gluegen2-rt.jar
+INSTALLATION DE LA BIBLIOTHEQUE
+
+1 - Sous linux :
+(A revoir) Commencez par installer les paquets libjogl2-* et libgluegen2-*
+apt-get install libjogl2-* libgluegen2-*
+
+Ouvrez un terminal et éditer votre fichier .bashrc :
+emacs ~/.bashrc
+
+Ajoutez la ligne suivante tout en bas du fichier:
+export CLASSPATH=$CLASSPATH:~/:/usr/share/java/jogl2.jar:/usr/share/java/gluegen2-rt.jar:.
+
+Fermez et relancer le terminal.
+
+2 - Déplacez le répertoire MG3D (qui se trouve dans le même répertoire que ce fichier) à la racine de votre compte.
+
+Déplacez vous dans ce répertoire et compilez la bibliothèque et la doc :
+cd ~/MG3D
+make
+La documentation se trouve dans le répertoire doc qui vient d'être créé.
+
+3 - Vous pouvez tester la démo disponible dans le répertoire Demos (qui se trouve dans le même répertoire que ce fichier). Vous devriez voir apparaite le logo MG3D.
+
+
+SOUS WINDOWS - c'est presque pareil
+SOUS MAC - c'est presque pareil (enfin... je crois)
