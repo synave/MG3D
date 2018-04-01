@@ -165,9 +165,6 @@ class Panneau extends GLCanvas implements GLEventListener{
 	}
     }
     
-    /*public void majCam(GL2 gl){
-    	cam.deplacerCamera(gl);
-	}*/
     
     /**
      * @see <a href="https://docs.oracle.com/javase/7/docs/api/java/awt/Component.html#repaint()" target="_blank">Repaint de Component</a>
