@@ -15,7 +15,7 @@ import MG3D.geometrie.Point3D;
 class Main {
 
 	public static void main(String[] args) {
-	    Fenetre f = new Fenetre("Mon appli MG3D",1800,1000);
+	    Fenetre f = new Fenetre("Mon appli MG3D",900,500);
 		Clavier clavier = f.getClavier();
 		
 		Camera cam = f.getCamera();
@@ -139,47 +139,47 @@ class Main {
 			// avant
 			if (clavier.getZEnfoncee()) {
 				cam.deplacerVersRegard(vitesse);
-				System.out.println("j'avance..."+cam.getPosition());
+				System.out.println(cam+"\n");
 			}
 
 			// arriere
 			if (clavier.getSEnfoncee()) {
 				cam.deplacerVersRegard(-vitesse);
-				System.out.println("je recule..."+cam.getPosition());
+				System.out.println(cam+"\n");
 			}
 
 			// droite
 			if (clavier.getDEnfoncee()) {
 				cam.decalerDroite(vitesse);
-				System.out.println("je vais a droite..."+cam.getPosition());
+				System.out.println(cam+"\n");
 			}
 			// gauche
 			if (clavier.getQEnfoncee()) {
 				cam.decalerGauche(vitesse);
-				System.out.println("je vais a gauche..."+cam.getPosition());
+				System.out.println(cam+"\n");
 			}
 			
 			/*** ORIENTATIONS / DIRECTIONS ***/
 			// orientation droite
 			if (clavier.getDroiteEnfoncee()) {
 				cam.setAngleGD(cam.getAngleGD() + sensi);
-				System.out.println("Je regarde a droite..." + cam.getAngleGD());
+				System.out.println(cam+"\n");
 			}
 			// orientation gauche
 			if (clavier.getGaucheEnfoncee()) {
 				cam.setAngleGD(cam.getAngleGD() - sensi);
-				System.out.println("Je regarde a gauche..." + cam.getAngleGD());
+				System.out.println(cam+"\n");
 			}
 
 			// orientation haut
 			if (clavier.getHautEnfoncee()) {
 				cam.setAngleHB(cam.getAngleHB() - sensi);
-				System.out.println("Je regarde en haut..." + cam.getAngleHB());
+				System.out.println(cam+"\n");
 			}
 			// orientation bas
 			if (clavier.getBasEnfoncee()) {
 				cam.setAngleHB(cam.getAngleHB() + sensi);
-				System.out.println("Je regarde en bas..." + cam.getAngleHB());
+				System.out.println(cam+"\n");
 			}
 
 			f.rafraichir();

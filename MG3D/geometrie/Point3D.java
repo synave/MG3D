@@ -24,6 +24,8 @@
 
 package MG3D.geometrie;
 
+import java.text.DecimalFormat;
+
 
 public class Point3D {
 // ATTRIBUTS
@@ -117,6 +119,7 @@ public class Point3D {
 	 * @return une chaine de caractere decrivant le point
 	 */
 	public String toString() {
-		return "("+getX()+", "+getY()+", "+getZ()+")";
+	    DecimalFormat fmt = new DecimalFormat("#,##0.000#");
+	    return "("+fmt.format(getX())+", "+fmt.format(getY())+", "+fmt.format(getZ())+")";
 	}
 }

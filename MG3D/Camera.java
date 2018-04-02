@@ -25,6 +25,7 @@
 package MG3D;
 
 import MG3D.geometrie.Point3D;
+import java.text.DecimalFormat;
 
 public class Camera {
 
@@ -111,7 +112,8 @@ public class Camera {
     }
 
     public String toString() {
-	return new String("Camera en " + position + " regardant vers " + pointRegarde());
+	DecimalFormat fmt = new DecimalFormat("#,##0.000#");
+	return new String("Camera en " + position + " regardant vers " + pointRegarde()+"\nangle Gauche/Droite : "+fmt.format(angleGD)+ "\nangle Haut/Bas : "+fmt.format(angleHB));
     }
 
 }
